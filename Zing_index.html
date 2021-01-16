@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Zing_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__logo">
+                    <img id="id1" src="logo.png" alt="" width="100px" height="50px">
+                </div>
+                <div class="header__search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Nhập tên bài hát, ca sĩ hoặc mv…">
+
+                </div>
+                <div class="header__icon">
+                    <a href=""><i class="fas fa-chevron-circle-up"></i></a>
+                    <a ref=""><i onclick="bell()"  id="red" class="fas fa-bell"></i></a>
+                    <!-- <a href=""></a> -->
+                    <div id="show" class="notify">
+                        <span>Thông Báo</span>
+                        <span>Bạn chưa nhận thông báo nào</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="">Trang chủ</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">#zingchart</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">mới phát hàng</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">top 100</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">chủ đề</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">mv</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">album</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">nghệ sĩ</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">nhạc cá nhân</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="slider">
+                <div onclick="changeImage()" class="slider__list">
+                    <div class="slider__image">
+                        <img id="img" src="banner1.jpg" alt="">
+                    </div>
+                    <div class="slider__image">
+                        <img id="img" src="banner2.jpg" alt="">
+                    </div>
+                    <div class="slider__image">
+                        <img id="img" src="banner3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="title__music">
+                    <h2>Thứ Bảy Sôi Động</h2>
+
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="image__music">
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gadsdsdsdây Nghiện</h5>
+                    </div>
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Nghiện</h5>
+                    </div>
+
+                </div>
+                <div class="image__music">
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gadsdsdsdây Nghiện</h5>
+                    </div>
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Nghiện</h5>
+                    </div>
+
+                </div>
+
+                <div class="image__music">
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gây Nghiện</h5>
+                    </div>
+
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Gadsdsdsdây Nghiện</h5>
+                    </div>
+                    <div class="content__image">
+                        <img src="image1.png" alt="">
+                        <div class="icon__hover">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <h5>EDM Nhạc Việt Nghiện</h5>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="Zing_theme.js"></script>
+</body>
+
+</html>
